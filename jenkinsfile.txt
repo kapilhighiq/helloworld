@@ -9,7 +9,7 @@ pipeline
 		{
 			steps 
 			{
-			 radon cc C:\ProgramData\Jenkins\.jenkins\workspace\pipline-test\hello_world.py 
+			 radon cc "C:\ProgramData\Jenkins\.jenkins\workspace\pipline-test\hello_world.py"
 			}
 		}		
 	}
