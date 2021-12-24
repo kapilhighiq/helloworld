@@ -4,11 +4,11 @@ pipeline
 
     stages 
 	{
-		stage('kill commands')
+		stage('killcommands')
 		{
 			steps
 			{
-			taskkill /M "cmd.exe" /F
+			 taskkill /IM "cmd.exe" /F
 			}
 		}
 		stage('Build')
