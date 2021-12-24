@@ -9,7 +9,7 @@ pipeline
 		{
 			steps
 			{ 
-				bat 'start cmd /k "cd:\\work"'
+				bat 'start cmd /k "cd c:\work"'
 			
 		}	}
 	}
