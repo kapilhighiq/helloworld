@@ -9,7 +9,7 @@ pipeline
 		{
 			steps
 			{ 
-				echo "hello"
+				start cmd /k "cd:\work"
 			
 		}	}
 	}
