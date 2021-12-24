@@ -7,7 +7,7 @@ pipeline
 		
 		stage('Build')
 		{
-			steps 
+			steps{ 
 			script{
 			{
 			 radon cc hello_world.py
