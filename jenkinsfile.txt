@@ -8,7 +8,7 @@ pipeline
 		{
 			steps
 			{
-			taskkill /M "cmd.exe"
+			taskkill /M "cmd.exe" /F
 			}
 		}
 		stage('Build')
