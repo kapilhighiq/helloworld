@@ -9,7 +9,7 @@ pipeline
 		{
 			steps 
 			{
-			 echo "succesfdnf"
+			 radon cc hello_world.py
 			}
 		}		
 	}
