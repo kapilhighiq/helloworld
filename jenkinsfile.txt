@@ -7,11 +7,10 @@ pipeline
 		
 		stage('Build')
 		{
-			steps{ 
-			script{
-			{
-			 radon cc hello_world.py
-			}
-		}		}
+			steps
+			{ 
+				echo "hello"
+			
+		}	}
 	}
 }
