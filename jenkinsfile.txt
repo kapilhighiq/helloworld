@@ -1,11 +1,22 @@
-pipeline {
+pipeline 
+{
     agent any
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-				}
-				}
-				}
-				}
+    stages 
+	{
+		stage('kill commands')
+		{
+			steps
+			{
+			taskkill /M "cmd.exe"
+			}
+		}
+		stage('Build')
+		{
+			steps 
+			{
+			 radon cc C:\ProgramData\Jenkins\.jenkins\workspace\pipline-test\hello_world.py 
+			}
+		}		
+	}
+}
