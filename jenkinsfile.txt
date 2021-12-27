@@ -9,7 +9,7 @@ pipeline
 		{
 			steps
 			{ 
-				powershell 'start cmd'
+				bat "C:\Work\Git\git hello world\helloworld\start.bat"
 			
 		}	}
 	}
