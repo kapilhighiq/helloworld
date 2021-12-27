@@ -9,7 +9,7 @@ pipeline
 		{
 			steps
 			{ 
-				bat 'taskkill /IM /F "cmd.exe"'
+				bat 'taskkill /IM "cmd.exe"' /F
 			
 		}	}
 	}
