@@ -1,1 +1,1 @@
-echo "success"
+start cmd
