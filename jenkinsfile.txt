@@ -9,7 +9,7 @@ pipeline
 		{
 			steps
 			{ 
-				bat "C:/Work/Git/git hello world/helloworld/start.bat"
+				bat "C:\Work\Git\git hello world\helloworld\start_cmd.bat"
 			
 		}	}
 	}
