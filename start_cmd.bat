@@ -1,1 +1,1 @@
-start cmd /k "cd c:\work"
+echo "success"
